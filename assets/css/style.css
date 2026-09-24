@@ -130,6 +130,8 @@ section.tight{padding:64px 0;}
 .proj-photo.logo{object-fit:contain; object-position:center; background:#fff; padding:24px;}
 .proj-back .proj-photo.logo{padding:12px;}
 .proj-front-body{padding:18px 20px; display:flex; flex-direction:column; gap:4px;}
+.proj-org{font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; font-weight:600; color:var(--accent);}
+.cat-blue .proj-org{color:var(--blue);}
 .proj-name{font-family:'Fraunces', serif; font-size:1.2rem; font-weight:600; line-height:1.25;}
 .proj-meta{font-size:.88rem; color:var(--ink-soft);}
 .proj-tags{display:flex; flex-wrap:wrap; gap:6px; margin-top:8px;}
