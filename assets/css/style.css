@@ -126,6 +126,7 @@ section.tight{padding:64px 0;}
 .proj-photo.logo{object-fit:contain; object-position:center; background:#fff; padding:24px;}
 .proj-back .proj-photo.logo{padding:12px;}
 .proj-photo.cover{height:auto; aspect-ratio:612 / 792; object-fit:cover; object-position:top center;}
+.proj-photo.cover.contain{object-fit:contain; object-position:center; background:#ececec;}
 .proj-photo.cover.logo{object-fit:contain; padding:28px;}
 .proj-front-body{padding:18px 20px; display:flex; flex-direction:column; gap:4px;}
 .proj-org{font-size:.72rem; text-transform:uppercase; letter-spacing:.12em; font-weight:600; color:var(--accent);}
