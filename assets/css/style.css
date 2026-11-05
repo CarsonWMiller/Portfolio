@@ -91,10 +91,12 @@ section.tight{padding:64px 0;}
 .resume-col a:hover .resume-image{transform:translateY(-2px); box-shadow:0 4px 10px rgba(0,0,0,.07), 0 18px 40px rgba(0,0,0,.12);}
 .resume-actions{margin-top:16px; display:flex; justify-content:center;}
 .edu-title{margin:34px 0 0;}
-.degree-list{list-style:none; padding:0; margin:10px 0 26px;}
+.degree-list{list-style:none; padding:0; margin:10px 0 8px;}
+.degree-list + .btn-row, .degree-list ~ .btn-row{margin-top:28px;}
 .degree-list li{padding:12px 0; border-top:1px solid var(--line);}
 .degree-list li:last-child{border-bottom:1px solid var(--line);}
 .degree-name{font-weight:600;}
+.degree-note{color:var(--ink-soft); font-size:.86rem; margin-top:2px;}
 .degree-school{color:var(--ink-soft); font-size:.92rem;}
 
 
